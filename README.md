@@ -1,0 +1,2 @@
+# MyWorld
+Blazor app repository
