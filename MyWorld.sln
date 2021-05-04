@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyWorld", "MyWorld\MyWorld.csproj", "{D7EAC2F8-3710-4C05-B619-F36BB0C75651}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyWorld", "MyWorld\MyWorld.csproj", "{D7EAC2F8-3710-4C05-B619-F36BB0C75651}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyWorldServer", "MyWorldServer\MyWorldServer.csproj", "{589F879D-FA99-4244-BA04-89DE955C9836}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyWorldServer", "MyWorldServer\MyWorldServer.csproj", "{589F879D-FA99-4244-BA04-89DE955C9836}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

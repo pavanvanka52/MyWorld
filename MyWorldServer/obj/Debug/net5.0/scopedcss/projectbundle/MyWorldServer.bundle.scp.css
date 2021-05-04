@@ -1,5 +1,180 @@
 @import '';
 
+/* _content/MyWorldServer/Pages/Main.razor.rz.scp.css */
+/*@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins&display=swap');*/
+*[b-ong5e1i19n] {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+body[b-ong5e1i19n] {
+    background-color: #eee;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to top, #fff 10%, rgba(93, 42, 141, 0.4) 90%) no-repeat
+}
+
+.wrapper[b-ong5e1i19n] {
+    max-width: 500px;
+    border-radius: 10px;
+    margin: 50px auto;
+    padding: 30px 40px;
+    box-shadow: 20px 20px 80px rgb(206, 206, 206);
+    align-content:safe center;
+}
+
+.h2[b-ong5e1i19n] {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #E7B13E;
+}
+
+.h4[b-ong5e1i19n] {
+    font-family: 'Poppins', sans-serif
+}
+
+.input-field[b-ong5e1i19n] {
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid #E7B13E;
+    color: #E7B13E
+}
+
+    .input-field:hover[b-ong5e1i19n] {
+        color: #7b4ca0;
+        border: 1px solid #7b4ca0
+    }
+
+input[b-ong5e1i19n] {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    width: 100%;
+    padding: 0px 2px;
+    font-family: 'Poppins', sans-serif
+}
+
+.fa-eye-slash.btn[b-ong5e1i19n] {
+    border: none;
+    outline: none;
+    box-shadow: none
+}
+
+a[b-ong5e1i19n] {
+    text-decoration: none;
+    color: #E7B13E;
+    font-weight: 700
+}
+
+    a:hover[b-ong5e1i19n] {
+        text-decoration: none;
+        color: #7b4ca0
+    }
+
+.option[b-ong5e1i19n] {
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer
+}
+
+    .option label.text-muted[b-ong5e1i19n] {
+        display: block;
+        cursor: pointer
+    }
+
+    .option input[b-ong5e1i19n] {
+        display: none
+    }
+
+.checkmark[b-ong5e1i19n] {
+    position: absolute;
+    top: 3px;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    cursor: pointer
+}
+
+.option input:checked ~ .checkmark[b-ong5e1i19n]:after {
+    display: block
+}
+
+.option .checkmark[b-ong5e1i19n]:after {
+    content: "";
+    width: 13px;
+    height: 13px;
+    display: block;
+    background: #E7B13E;
+    position: absolute;
+    top: 48%;
+    left: 53%;
+    border-radius: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 300ms ease-in-out 0s
+}
+
+.option input[type="radio"]:checked ~ .checkmark[b-ong5e1i19n] {
+    background: #fff;
+    transition: 300ms ease-in-out 0s;
+    border: 1px solid #E7B13E
+}
+
+    .option input[type="radio"]:checked ~ .checkmark[b-ong5e1i19n]:after {
+        transform: translate(-50%, -50%) scale(1)
+    }
+
+.btn.btn-block[b-ong5e1i19n] {
+    border-radius: 20px;
+    background-color: #E7B13E;
+    color: #fff
+}
+
+    .btn.btn-block:hover[b-ong5e1i19n] {
+        background-color: #55268be0
+    }
+
+@media(max-width: 575px) {
+    .wrapper[b-ong5e1i19n] {
+        margin: 10px
+    }
+}
+
+@media(max-width:424px) {
+    .wrapper[b-ong5e1i19n] {
+        padding: 30px 10px;
+        margin: 5px
+    }
+
+    .option[b-ong5e1i19n] {
+        position: relative;
+        padding-left: 22px
+    }
+
+        .option label.text-muted[b-ong5e1i19n] {
+            font-size: 0.95rem
+        }
+
+    .checkmark[b-ong5e1i19n] {
+        position: absolute;
+        top: 2px
+    }
+
+    .option .checkmark[b-ong5e1i19n]:after {
+        top: 50%
+    }
+
+    #forgot[b-ong5e1i19n] {
+        font-size: 0.95rem
+    }
+}
+
 /* _content/MyWorldServer/Shared/MainLayout.razor.rz.scp.css */
 .page[b-oaxpszhdqw] {
     position: relative;
@@ -9,6 +184,16 @@
 
 .main[b-oaxpszhdqw] {
     flex: 1;
+}
+
+.Home[b-oaxpszhdqw] {
+    /*margin-bottom: 50px;*/ /* Margin bottom by footer height */
+    /*background-color: #5a83a3;*/
+    background-image: url('../wwwroot/Images/MyPic.JPG') !important;
+    /*    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;*/
+    outline: solid 1px red;
 }
 
 .sidebar[b-oaxpszhdqw] {

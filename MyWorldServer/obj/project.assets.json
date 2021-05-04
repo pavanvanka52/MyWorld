@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pavan\\source\\repos\\MyWorld\\MyWorldServer\\MyWorldServer.csproj",
+      "projectUniqueName": "C:\\MyWorld\\MyWorldServer\\MyWorldServer.csproj",
       "projectName": "MyWorldServer",
-      "projectPath": "C:\\Users\\pavan\\source\\repos\\MyWorld\\MyWorldServer\\MyWorldServer.csproj",
+      "projectPath": "C:\\MyWorld\\MyWorldServer\\MyWorldServer.csproj",
       "packagesPath": "C:\\Users\\pavan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pavan\\source\\repos\\MyWorld\\MyWorldServer\\obj\\",
+      "outputPath": "C:\\MyWorld\\MyWorldServer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\pavan\\AppData\\Roaming\\NuGet\\NuGet.Config",

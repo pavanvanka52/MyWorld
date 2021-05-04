@@ -1150,11 +1150,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pavan\\source\\repos\\MyWorld\\MyWorld\\MyWorld.csproj",
+      "projectUniqueName": "C:\\MyWorld\\MyWorld\\MyWorld.csproj",
       "projectName": "MyWorld",
-      "projectPath": "C:\\Users\\pavan\\source\\repos\\MyWorld\\MyWorld\\MyWorld.csproj",
+      "projectPath": "C:\\MyWorld\\MyWorld\\MyWorld.csproj",
       "packagesPath": "C:\\Users\\pavan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pavan\\source\\repos\\MyWorld\\MyWorld\\obj\\",
+      "outputPath": "C:\\MyWorld\\MyWorld\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\pavan\\AppData\\Roaming\\NuGet\\NuGet.Config",
